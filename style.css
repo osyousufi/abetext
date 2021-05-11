@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+#nav-text-left {
+  padding-top: 5px;
+}
+
+#landing {
+  background: url('./img/banner.svg') no-repeat center center/cover;
+  background-size: cover;
+  padding-top: 500px;
+}
+
+#landing .landing-content {
+  color: black;
+  text-align: center;
+  padding-bottom: 700px;
+}
+
+
+
+
+#home-button {
+  border-width: large;
+  border-radius: 0.5;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+
+}
+
+.icons {
+  padding: 100px 0px;
+  text-align: center;
+
+}
+
+.icon-img {
+  width: 100px;
+  padding: 10px 0px;
+}
+
+
+.fixed{
+  background-image: url('./img/mobile.png');
+  position: fixed;
+}
+
+.fixed-background{
+  padding: 10rem 0;
+}
+
+.fixed-background h1{
+  color: black;
+}
+
+#why-us {
+  padding: 75px 0px;
+
+}
+
+#why-us .why-us-img {
+  width: 500px;
+  border: 10px solid rgb(59, 62, 64);
+}
+
+#main-footer{
+  text-align: center;
+  background-color: rgb(52, 52, 52);
+  padding: 20px;
+  color: white;
+}
+
+#contact-form .container{
+  padding-top: 100px;
+  padding-bottom: 20px;
+
+}
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #464646 solid;
+  border-radius: 5px;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+.heading {
+  text-align: center;
+}
+
+#contact-info {
+  padding-bottom: 100px;
+}
+#contact-info .card {
+  border-radius: 10px;
+
+}
+
+#contact-info h2 {
+  padding: 20px 0;
+}
+
+.header {
+  padding: 125px 0px;
+}
+
+
+.header-heading h1 {
+  font-size: 3em;
+}
+
+.card-title {
+  padding-top: 20px;
+}
+
+.card-deck {
+  padding: 25px 0px;
+
+}
+
+#pricing-image {
+  width: 300px;
+    margin-left: 150px;
+}
+
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+
+
+.iphone {
+  box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.2), 0 0 0 1px #999, 0 0 30px 0px rgba(0,0,0,0.7);
+  border: 5px solid #d9dbdc;
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 50px;
+  height: 877px;
+  width: 423px;
+  position: relative;
+  margin: 30px auto;
+  // Scale so that the iPhone fits in view
+  transform: scale(.8);
+}
+
+.iphone-top {
+  padding: 5px 110px 40px;
+  position: relative;
+  .speaker {
+    display: block;
+    width: 70px;
+    height: 6px;
+    margin: 0 auto;
+    border-radius: 6px;
+    background: #292728;
+  }
+
+
+}
+
+
+
+.iphone-screen {
+  background: #eee;
+  border: 1px solid #fff;
+  height: 677px;
+  width: 375px;
+  margin: 0 auto;
+  border: 2px solid rgba(0,0,0,0.9);
+  border-radius: 3px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  img {
+    width: 100%;
+  }
+}
+
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  width: 400px;
+  height: 700px;
+  object-fit: fill;
+}
+
+.iphone-bottom {
+  padding: 10px 0 0;
+  span {
+    display: block;
+    margin: 0 auto;
+    width: 68px;
+    height: 68px;
+    background: #ccc;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #303233 0%, #b5b7b9 50%, #f0f2f2 69%, #303233 100%);
+    position: relative;
+    &:after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 60px;
+      background: #fff;
+      border-radius: 50%;
+      position: absolute;
+      left: 4px;
+      top: 4px;
+    }
+  }
+}
